@@ -7,7 +7,10 @@ Welcome to my **Cisco Network Scripts Collection**! This repository contains a c
 The scripts in this repository are written in **Python** using the **Netmiko** library for SSH automation. These scripts can interact with Cisco devices via SSH, send commands, and capture output for further processing. They are designed to simplify repetitive networking tasks like interface monitoring, configuration backup, and troubleshooting.
 
 ### Instructions: 
-
+1) Setup a account on https://developer.cisco.com/site/sandbox/
+2) Select a always-on sand box, I have chosen ![image](https://github.com/user-attachments/assets/a7bbe9b3-d763-4a02-96c1-32a4cb461b85)
+3) Your can access the device via SSH and in the Instructions there will be creditials
+4) Launch the Virtual device
 
 ### Some examples of what you'll find in this repo:
 - Collecting interface information 
