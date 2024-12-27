@@ -1,31 +1,27 @@
-# Cisco Device Interaction Script
+# Cisco Network Scripts Collection
 
-This Python script utilizes the `Netmiko` library to connect to Cisco devices, send commands, and retrieve output. It is specifically designed for interacting with Cisco routers and switches for basic network automation tasks.
+Welcome to the **Cisco Network Scripts Collection**! This repository contains a collection of scripts designed to automate and simplify tasks related to Cisco networking devices. Whether you're working with routers, switches, or other Cisco hardware, you'll find useful scripts to help manage your network environment.
 
-## Features
+## Overview
 
-- Connect to Cisco devices using SSH or Telnet.
-- Send commands such as `show ip interface brief` to retrieve network status.
-- Easy-to-use configuration system with credentials and connection details stored in a separate file.
+The scripts in this repository are written in **Python** using the **Netmiko** library for SSH automation. These scripts can interact with Cisco devices via SSH, send commands, and capture output for further processing. They are designed to simplify repetitive networking tasks like interface monitoring, configuration backup, and troubleshooting.
 
-## Prerequisites
-
-Before running the script, ensure you have the following:
-
-- **Python 3.x** installed.
-- The **Netmiko** library installed. You can install it using pip:
-
-  ```bash
-  pip install netmiko
+### Some examples of what you'll find in this repo:
+- Collecting interface information 
 
 
-### Key Sections in the README:
+## Requirements
 
-- **Project Overview**: Describes what the script does (connecting to Cisco devices and retrieving network status).
-- **Installation Instructions**: How to set up the environment, install dependencies, and configure the device connection.
-- **Usage**: A step-by-step guide on how to run the script, with code examples.
-- **Example Output**: Shows the kind of output users should expect when running the script.
-- **Troubleshooting**: Offers solutions to common issues.
-- **Contributing**: Encourages contributions from other developers.
-- **License**: Specifies the project license.
+To run the scripts, you need to have Python and the necessary libraries installed:
 
+### Python
+- Python 3.x
+
+### Libraries
+- `netmiko`: A Python library for SSH to network devices.
+- `python-dotenv`: To load environment variables from a `.env` file for sensitive information like device credentials.
+
+You can install the required libraries using `pip`:
+
+```bash
+pip install netmiko python-dotenv
