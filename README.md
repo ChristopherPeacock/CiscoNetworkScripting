@@ -1,6 +1,6 @@
 # Cisco Network Scripts Collection
 
-Welcome to my **Cisco Network Scripts Collection**! This repository contains a collection of scripts designed to automate and simplify tasks related to Cisco networking devices. 
+Welcome to my **Cisco Network Scripts Collection**! This repository contains a collection of scripts related to Cisco networking devices. 
 
 ## Overview
 
