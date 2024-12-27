@@ -1,6 +1,6 @@
 # Cisco Network Scripts Collection
 
-Welcome to the **Cisco Network Scripts Collection**! This repository contains a collection of scripts designed to automate and simplify tasks related to Cisco networking devices. Whether you're working with routers, switches, or other Cisco hardware, you'll find useful scripts to help manage your network environment.
+Welcome to my **Cisco Network Scripts Collection**! This repository contains a collection of scripts designed to automate and simplify tasks related to Cisco networking devices. 
 
 ## Overview
 
@@ -8,7 +8,6 @@ The scripts in this repository are written in **Python** using the **Netmiko** l
 
 ### Some examples of what you'll find in this repo:
 - Collecting interface information 
-
 
 ## Requirements
 
