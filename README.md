@@ -6,6 +6,9 @@ Welcome to my **Cisco Network Scripts Collection**! This repository contains a c
 
 The scripts in this repository are written in **Python** using the **Netmiko** library for SSH automation. These scripts can interact with Cisco devices via SSH, send commands, and capture output for further processing. They are designed to simplify repetitive networking tasks like interface monitoring, configuration backup, and troubleshooting.
 
+### Instructions: 
+
+
 ### Some examples of what you'll find in this repo:
 - Collecting interface information 
 
