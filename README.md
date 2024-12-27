@@ -8,8 +8,7 @@ The scripts in this repository are written in **Python** using the **Netmiko** l
 
 ### Instructions: 
 1) Setup a account on https://developer.cisco.com/site/sandbox/
-2) Select a always-on sand box, I have chosen
-   ![image](https://github.com/user-attachments/assets/a7bbe9b3-d763-4a02-96c1-32a4cb461b85)
+2) Select a always-on sand box, I have chosen IOS XR Programmabilty AlwaysOn
 3) Your can access the device via SSH and in the Instructions there will be creditials
 4) Launch the Virtual device
 
